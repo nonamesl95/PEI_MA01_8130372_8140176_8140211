@@ -1,2 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<mapaLEI>
+    <epocasAvaliacao>
+        <normal>
+            <exames>
+                <exame>
+                    <uCurricular>
+                        <areaCientifica></areaCientifica>
+                        <anoCurricular></anoCurricular>
+                        <semestre></semestre>
+                        <regente></regente>
+                        <tipologia></tipologia>
+                    </uCurricular>
+                    
+                    <hora></hora>
+                    <dia></dia>
+                    <tipoSala></tipoSala>
+                </exame>
+            </exames>
+        </normal>
+        <recurso>
+            <exames>
+                <exame>
+                    <uCurricular>
+                        <areaCientifica></areaCientifica>
+                        <anoCurricular></anoCurricular>
+                        <semestre></semestre>
+                        <regente></regente>
+                        <tipologia></tipologia>
+                    </uCurricular>
+                    
+                    <hora></hora>
+                    <dia></dia>
+                    <tipoSala></tipoSala>
+                </exame>
+            </exames>
+        </recurso>
+        <especial>
+            <exames>
+                <exame>
+                    <uCurricular>
+                        <areaCientifica></areaCientifica>
+                        <anoCurricular></anoCurricular>
+                        <semestre></semestre>
+                        <regente></regente>
+                        <tipologia></tipologia>
+                    </uCurricular>
+                    <hora></hora>
+                    <dia></dia>
+                    <tipoSala></tipoSala>
+                </exame>
+            </exames>
+        </especial>
+    </epocasAvaliacao>
+    
+</mapaLEI>
