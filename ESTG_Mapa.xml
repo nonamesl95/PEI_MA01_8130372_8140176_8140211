@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapa>
+    <curso></curso>
+    <codigo></codigo>
+    <coordenador></coordenador>
+    <epocasAvaliacao>
+        <normal>
+            <dataInicio></dataInicio>
+            <dataFim></dataFim>
+            <exames>
+                <exame>
+                    <uCurricular>
+                        <areaCientifica></areaCientifica>
+                        <anoCurricular></anoCurricular>
+                        <semestre></semestre>
+                        <regente></regente>
+                        <tipologia></tipologia>
+                    </uCurricular>
+                    <hora></hora>
+                    <dia></dia>
+                    <tipoSala></tipoSala>
+                    <responsavel></responsavel>
+                </exame>
+            </exames>
+        </normal>
+        <recurso>
+            <dataInicio></dataInicio>
+            <dataFim></dataFim>
+            <exames>
+                <exame>
+                    <uCurricular>
+                        <areaCientifica></areaCientifica>
+                        <anoCurricular></anoCurricular>
+                        <semestre></semestre>
+                        <regente></regente>
+                        <tipologia></tipologia>
+                    </uCurricular>
+                    <hora></hora>
+                    <dia></dia>
+                    <tipoSala></tipoSala>
+                    <responsavel></responsavel>
+                </exame>
+            </exames>
+        </recurso>
+        <especial>
+            <dataInicio></dataInicio>
+            <dataFim></dataFim>
+            <exames>
+                <exame>
+                    <uCurricular>
+                        <areaCientifica></areaCientifica>
+                        <anoCurricular></anoCurricular>
+                        <semestre></semestre>
+                        <regente></regente>
+                        <tipologia></tipologia>
+                    </uCurricular>
+                    <hora></hora>
+                    <dia></dia>
+                    <tipoSala></tipoSala>
+                    <responsavel></responsavel>
+                </exame>
+            </exames>
+        </especial>
+    </epocasAvaliacao>
+</mapa>
+
+
+    
