@@ -2,6 +2,8 @@
 <mapaLEI>
     <epocasAvaliacao>
         <normal>
+            <dataInicio></dataInicio>
+            <dataFim></dataFim>
             <exames>
                 <exame>
                     <uCurricular>
@@ -11,14 +13,16 @@
                         <regente></regente>
                         <tipologia></tipologia>
                     </uCurricular>
-                    <responsavel></responsavel>
                     <hora></hora>
                     <dia></dia>
                     <tipoSala></tipoSala>
+                    <responsavel></responsavel>
                 </exame>
             </exames>
         </normal>
         <recurso>
+            <dataInicio></dataInicio>
+            <dataFim></dataFim>
             <exames>
                 <exame>
                     <uCurricular>
@@ -28,14 +32,16 @@
                         <regente></regente>
                         <tipologia></tipologia>
                     </uCurricular>
-                    <responsavel></responsavel>
                     <hora></hora>
                     <dia></dia>
                     <tipoSala></tipoSala>
+                    <responsavel></responsavel>
                 </exame>
             </exames>
         </recurso>
         <especial>
+            <dataInicio></dataInicio>
+            <dataFim></dataFim>
             <exames>
                 <exame>
                     <uCurricular>
@@ -45,13 +51,12 @@
                         <regente></regente>
                         <tipologia></tipologia>
                     </uCurricular>
-                    <responsavel></responsavel>
                     <hora></hora>
                     <dia></dia>
                     <tipoSala></tipoSala>
+                    <responsavel></responsavel>
                 </exame>
             </exames>
         </especial>
     </epocasAvaliacao>
-    
 </mapaLEI>
