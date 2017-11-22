@@ -11,7 +11,7 @@
                         <regente></regente>
                         <tipologia></tipologia>
                     </uCurricular>
-                    
+                    <responsavel></responsavel>
                     <hora></hora>
                     <dia></dia>
                     <tipoSala></tipoSala>
@@ -28,7 +28,7 @@
                         <regente></regente>
                         <tipologia></tipologia>
                     </uCurricular>
-                    
+                    <responsavel></responsavel>
                     <hora></hora>
                     <dia></dia>
                     <tipoSala></tipoSala>
@@ -45,6 +45,7 @@
                         <regente></regente>
                         <tipologia></tipologia>
                     </uCurricular>
+                    <responsavel></responsavel>
                     <hora></hora>
                     <dia></dia>
                     <tipoSala></tipoSala>
