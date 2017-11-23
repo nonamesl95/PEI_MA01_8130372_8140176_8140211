@@ -2,9 +2,7 @@
 
 <mapaGeral>
     <cursos>
-        <curso nome="LEI">
-            <codigo></codigo> 
-            <coordenador></coordenador>
+        <curso codigo="LEI">
             <mapa>
                 <epocasAvaliacao>
                     <normal>
@@ -67,8 +65,7 @@
                 </epocasAvaliacao></mapa>
         </curso>
         <curso nome="SIRC">
-            <codigo></codigo> 
-            <coordenador></coordenador>
+           
             <mapa>
                 <epocasAvaliacao>
                     <normal>
