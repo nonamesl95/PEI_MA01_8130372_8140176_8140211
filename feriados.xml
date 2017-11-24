@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feriados>
+    <feriado>
+        <data>01/01/2018</data>
+        <nome>Ano Novo</nome>
+    </feriado>
+    <feriado>
+        <data>30/03/2018</data>
+        <nome>Sexta feira Santa</nome>
+    </feriado>
+    <feriado>
+        <data>01/04/2018</data>
+        <nome>Pascoa</nome>
+    </feriado>
+    <feriado>
+        <data>25/04/2018</data>
+        <nome>25 de Abril</nome>
+    </feriado>
+    <feriado>
+        <data>01/05/2018</data>
+        <nome>Dia do Trabalhador</nome>
+    </feriado>
+</feriados>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+    
+    <curso codigo="LEI" ano="2017" nivel="Licenciatura">
+        
+        <nome>Informática</nome>
+        <coordenador>Ricardo Santos</coordenador>
+        
+        <unidades>
+            
+            <unidade codigo="PEI" creditos="6">
+                <nome>Processamento Estruturarado de Informacao</nome>
+                <regente>Bruno Oliveira</regente>
+                <semestre>1</semestre>
+                <areaCientifica>Informática</areaCientifica>
+                <anoCurricular>2</anoCurricular>
+               <tipologias>
+                   <tipologia>T</tipologia>
+                   <tipologia>TP</tipologia>
+               </tipologias>
+            </unidade>
+            
+            <unidade codigo="PII" creditos="5">
+                <nome>Processamento Estruturarado de Informacao</nome>
+                <regente>Bruno Oliveira</regente>
+                <semestre>1</semestre>
+                <areaCientifica>Informática</areaCientifica>
+                <anoCurricular>2</anoCurricular>
+                <tipologias>
+                    <tipologia>T</tipologia>
+                    <tipologia>TP</tipologia>
+                </tipologias>
+            </unidade>
+            
+        </unidades>
+        
+    </curso>
+    
+    <curso codigo="SIRC" ano="2017" nivel="Licenciatura" >
+        
+        <nome>Informática</nome>
+        <coordenador>Joao Paulo Magalhaes</coordenador>
+        
+        <unidades>
+            
+            <unidade codigo="PEI" creditos="6">
+                <nome>Processamento Estruturarado de Informacao</nome>
+                <regente>Bruno Oliveira</regente>
+                <semestre>1</semestre>
+                <areaCientifica>Informática</areaCientifica>
+                <anoCurricular>2</anoCurricular>
+                <tipologias>
+                    <tipologia>T</tipologia>
+                    <tipologia>TP</tipologia>
+                </tipologias>
+            </unidade>
+            
+        </unidades>
+        
+    </curso>
+    
+</cursos>
