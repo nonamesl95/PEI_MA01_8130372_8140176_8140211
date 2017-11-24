@@ -30,7 +30,7 @@
                         <semestre>1</semestre>
                         <regente>Joao Carneiro</regente>
                         <tipologias>
-                           
+                            <tipologia>TP</tipologia>
                             <tipologia>TP</tipologia>
                         </tipologias>
                     </uCurricular>
@@ -71,6 +71,7 @@
                         <regente>Joao Carneiro</regente>
                         <tipologias>
                             <tipologia>TP</tipologia>
+                            <tipologia>TP</tipologia>
                         </tipologias>
                     </uCurricular>
                     <hora>10:00</hora>
@@ -109,6 +110,7 @@
                         <semestre>1</semestre>
                         <regente>Joao Carneiro</regente>
                         <tipologias>
+                            <tipologia>TP</tipologia>
                             <tipologia>TP</tipologia>
                         </tipologias>
                     </uCurricular>
