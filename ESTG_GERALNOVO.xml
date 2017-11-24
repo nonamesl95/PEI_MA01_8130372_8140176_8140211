@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ESTG_GERALNOVO.xsl"?>
 <pei:mapa xmlns:pei ="http://namespace.com/Epocas"
+    xmlns:eval = "http://namespace.com/EpocasAvaliacao"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://namespace.com Epocas.xsd">
-    <pei:epocasAvaliacao>
-        <pei:epocaNormal>
-            <pei:dataInicio>18/01/2017</pei:dataInicio>
-            <pei:dataFim>18/02/2017</pei:dataFim>
-        </pei:epocaNormal>
-        <pei:epocaRecurso>
-            <pei:dataInicio>18/01/2017</pei:dataInicio>
-            <pei:dataFim>18/02/2017</pei:dataFim>
-        </pei:epocaRecurso>
-        <pei:epocaEspecial>
-            <pei:dataInicio>18/01/2017</pei:dataInicio>
-            <pei:dataFim>18/02/2017</pei:dataFim>
-        </pei:epocaEspecial>
-    </pei:epocasAvaliacao>
+    <eval:epocasAvaliacao>
+        <eval:epocaNormal>
+            <eval:dataInicio>18/01/2017</eval:dataInicio>
+            <eval:dataFim>18/02/2017</eval:dataFim>
+        </eval:epocaNormal>
+        <eval:epocaRecurso>
+            <eval:dataInicio>18/01/2017</eval:dataInicio>
+            <eval:dataFim>18/02/2017</eval:dataFim>
+        </eval:epocaRecurso>
+        <eval:epocaEspecial>
+            <eval:dataInicio>18/01/2017</eval:dataInicio>
+            <eval:dataFim>18/02/2017</eval:dataFim>
+        </eval:epocaEspecial>
+    </eval:epocasAvaliacao>
     <pei:cursos>
+        
         <pei:curso codigo="LEI">
-            <pei:nome></pei:nome>
+            <pei:nome>Licenciatura em Engenharia Informatica</pei:nome>
             <pei:codigo></pei:codigo>
             <pei:coordenador></pei:coordenador>
             <pei:unidadesCurriculares>
@@ -106,6 +108,9 @@
             </pei:unidadesCurriculares>
         </pei:curso>
         <pei:curso codigo="SIRC">
+            <pei:nome>Licenciatura em Segurança</pei:nome>
+            <pei:codigo></pei:codigo>
+            <pei:coordenador></pei:coordenador>
             <pei:unidadesCurriculares>
                 <pei:unidadeCurricular cod="PEI">
                     <pei:nome>PEI</pei:nome>

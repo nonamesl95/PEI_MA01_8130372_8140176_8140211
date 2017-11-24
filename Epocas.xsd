@@ -8,10 +8,10 @@
     <xs:element name="epocas">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="epoca" minOccurs="3">
+                <xs:element name="epoca" minOccurs="3" maxOccurs="3">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="exame" minOccurs="1" >
+                            <xs:element name="exame" minOccurs="1" maxOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
                                          <xs:element name="hora" type="xs:time"/>
