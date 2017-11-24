@@ -8,7 +8,7 @@
             <regente></regente>
         </curso>
         <epocasAvaliacao>
-            <normal>
+            <epoca tipo="normal">
                 <dataInicio>18/01/2017</dataInicio>
                 <dataFim>18/02/2017</dataFim>
                 <exames>
@@ -47,8 +47,8 @@
                         <responsavel>Ricardo Neves</responsavel>
                     </exame>
                 </exames>
-            </normal>
-            <recurso>
+            </epoca>
+            <epoca tipo="recurso">
                 <dataInicio>19/02/2017</dataInicio>
                 <dataFim>19/03/2017</dataFim>
                 <exames>
@@ -87,8 +87,8 @@
                         <responsavel>Ricardo Neves</responsavel>
                     </exame>
                 </exames>
-            </recurso>
-            <especial>
+            </epoca>
+                <epoca tipo="especial">
                 <dataInicio>12/08/2017</dataInicio>
                 <dataFim>20/09/2017</dataFim>
                 <exames>
@@ -137,7 +137,7 @@
             <regente></regente>
         </curso>
         <epocasAvaliacao>
-            <normal>
+            <epoca tipo="normal">
                 <dataInicio>18/01/2017</dataInicio>
                 <dataFim>18/02/2017</dataFim>
                 <exames>
@@ -176,8 +176,8 @@
                         <responsavel>Ricardo Neves</responsavel>
                     </exame>
                 </exames>
-            </normal>
-            <recurso>
+            </epoca>
+            <epoca tipo="recurso">
                 <dataInicio>19/02/2017</dataInicio>
                 <dataFim>19/03/2017</dataFim>
                 <exames>
@@ -216,8 +216,8 @@
                         <responsavel>Ricardo Neves</responsavel>
                     </exame>
                 </exames>
-            </recurso>
-            <especial>
+            </epoca>
+            <epoca tipo="especial">
                 <dataInicio>12/08/2017</dataInicio>
                 <dataFim>20/09/2017</dataFim>
                 <exames>
@@ -256,7 +256,7 @@
                         <responsavel>Ricardo Neves</responsavel>
                     </exame>
                 </exames>
-            </especial>
+            </epoca>
         </epocasAvaliacao>
     </mapa>
     
