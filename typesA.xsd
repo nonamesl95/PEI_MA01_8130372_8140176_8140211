@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    targetNamespace="http://namespace.com/typesA"
+    >
+    
+    <xs:simpleType name="tipoSala">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Informática"/>
+            <xs:enumeration value="Normal"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="sala">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="p1"/>
+            <xs:enumeration value="p2"/>
+            <xs:enumeration value="p3"/>
+            <xs:enumeration value="p4"/>
+            <xs:enumeration value="p5"/>
+            <xs:enumeration value="p6"/>
+            <xs:enumeration value="p7"/>
+            <xs:enumeration value="p8"/>
+            <xs:enumeration value="p9"/>
+            <xs:enumeration value="p10"/>
+            <xs:enumeration value="p11"/>
+            <xs:enumeration value="p12"/>          
+            <xs:enumeration value="0.1"/>
+            <xs:enumeration value="0.3"/>
+            <xs:enumeration value="auditorio1"/>
+            <xs:enumeration value="auditorio2"/>
+            <xs:enumeration value="auditorio3"/>
+            <xs:enumeration value="auditorio4"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+
+</xs:schema>

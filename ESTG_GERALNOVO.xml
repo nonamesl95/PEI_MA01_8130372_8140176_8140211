@@ -1,191 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ESTG_GERALNOVO.xsl"?>
-<mapa>
-    <epocasAvaliacao>
-    <epocaNormal>
-        <dataInicio>18/01/2017</dataInicio>
-    <dataFim>18/02/2017</dataFim>
-    </epocaNormal>
-    <epocaRecurso>
-        <dataInicio>18/02/2017</dataInicio>
-        <dataFim>18/03/2017</dataFim>
-    </epocaRecurso>
-    <epocaEspecial>
-        <dataInicio>18/08/2017</dataInicio>
-        <dataFim>18/09/2017</dataFim>
-    </epocaEspecial>
-    </epocasAvaliacao>
-    <cursos>
-        <curso codigo="LEI">
-            <nome></nome>
-            <codigo></codigo>
-            <coordenador></coordenador>
-            <unidadesCurriculares>
-                <unidadeCurricular cod="PEI">
-                    <nome>PEI</nome>
-                    <areaCientifica>Informatica</areaCientifica>
-                    <anoCurricular>2</anoCurricular>
-                    <semestre>1</semestre>
-                    <responsavel>Cristovão</responsavel>
-                    <tipologias>
-                        <tipologia>T</tipologia>
-                        <tipologia>TP</tipologia>
-                    </tipologias>
-                    <epocas>
-                    <epoca nome="Normal">
-                        <exame>
-                            <hora>10:00</hora>
-                            <dia>18</dia>
-                            <tipoSala>Informática</tipoSala>
-                            <sala>P10</sala>
-                            <responsavel>Armando Jorge Neves</responsavel>
-                        </exame>
-                    </epoca>
-                    <epoca nome="Recurso">
-                        <exame>
-                            <hora>10:00</hora>
-                            <dia>19</dia>
-                            <tipoSala>Informática</tipoSala>
-                            <sala>P10</sala>
-                            <responsavel>Armando Jorge Neves</responsavel>
-                        </exame>
-                    </epoca>
-                    <epoca nome="Especial">
-                        <exame>
-                            <hora>10:00</hora>
-                            <dia>20</dia>
-                            <tipoSala>Informática</tipoSala>
-                            <sala>P10</sala>
-                            <responsavel>Armando Jorge Neves</responsavel>
-                        </exame>
-                    </epoca>
-                    </epocas>
-                </unidadeCurricular>
-                <unidadeCurricular cod="PEI">
-                    <nome>LDS</nome>
-                    <areaCientifica>Informatica</areaCientifica>
-                    <anoCurricular>2</anoCurricular>
-                    <semestre>1</semestre>
-                    <responsavel>Cristovão</responsavel>
-                    <tipologias>
-                        <tipologia>T</tipologia>
-                        <tipologia>TP</tipologia>
-                    </tipologias>
-                    <epocas>
-                        <epoca nome="Normal">
-                            <exame>
-                                <hora>10:00</hora>
-                                <dia>18</dia>
-                                <tipoSala>Informática</tipoSala>
-                                <sala>P10</sala>
-                                <responsavel>Armando Jorge Neves</responsavel>
-                            </exame>
-                        </epoca>
-                        <epoca nome="Recurso">
-                            <exame>
-                                <hora>10:00</hora>
-                                <dia>18</dia>
-                                <tipoSala>Informática</tipoSala>
-                                <sala>P10</sala>
-                                <responsavel>Armando Jorge Neves</responsavel>
-                            </exame>
-                        </epoca>
-                        <epoca nome="Especial">
-                            <exame>
-                                <hora>10:00</hora>
-                                <dia>18</dia>
-                                <tipoSala>Informática</tipoSala>
-                                <sala>P10</sala>
-                                <responsavel>Armando Jorge Neves</responsavel>
-                            </exame>
-                        </epoca>
-                    </epocas>
-                </unidadeCurricular>
-            </unidadesCurriculares>
-        </curso>
-        <curso codigo="SIRC">
-            <unidadesCurriculares>
-                <unidadeCurricular cod="PEI">
-                    <nome>PEI</nome>
-                    <areaCientifica>Informatica</areaCientifica>
-                    <anoCurricular>2</anoCurricular>
-                    <semestre>1</semestre>
-                    <responsavel>Cristovão</responsavel>
-                    <tipologias>
-                        <tipologia>T</tipologia>
-                        <tipologia>TP</tipologia>
-                    </tipologias>
-                    <epocas>
-                        <epoca nome="Normal">
-                            <exame>
-                                <hora>10:00</hora>
-                                <dia>18</dia>
-                                <tipoSala>Informática</tipoSala>
-                                <sala>P10</sala>
-                                <responsavel>Armando Jorge Neves</responsavel>
-                            </exame>
-                        </epoca>
-                        <epoca nome="Recurso">
-                            <exame>
-                                <hora>10:00</hora>
-                                <dia>18</dia>
-                                <tipoSala>Informática</tipoSala>
-                                <sala>P10</sala>
-                                <responsavel>Armando Jorge Neves</responsavel>
-                            </exame>
-                        </epoca>
-                        <epoca nome="Especial">
-                            <exame>
-                                <hora>10:00</hora>
-                                <dia>18</dia>
-                                <tipoSala>Informática</tipoSala>
-                                <sala>P10</sala>
-                                <responsavel>Armando Jorge Neves</responsavel>
-                            </exame>
-                        </epoca>
-                    </epocas>
-                </unidadeCurricular>
-                <unidadeCurricular cod="PEI">
-                    <nome>LSD</nome>
-                    <areaCientifica>Informatica</areaCientifica>
-                    <anoCurricular>2</anoCurricular>
-                    <semestre>1</semestre>
-                    <responsavel>Cristovão</responsavel>
-                    <tipologias>
-                        <tipologia>T</tipologia>
-                        <tipologia>TP</tipologia>
-                    </tipologias>
-                    <epocas>
-                        <epoca nome="Normal">
-                            <exame>
-                                <hora>10:00</hora>
-                                <dia>18</dia>
-                                <tipoSala>Informática</tipoSala>
-                                <sala>P10</sala>
-                                <responsavel>Armando Jorge Neves</responsavel>
-                            </exame>
-                        </epoca>
-                        <epoca nome="Recurso">
-                            <exame>
-                                <hora>10:00</hora>
-                                <dia>18</dia>
-                                <tipoSala>Informática</tipoSala>
-                                <sala>P10</sala>
-                                <responsavel>Armando Jorge Neves</responsavel>
-                            </exame>
-                        </epoca>
-                        <epoca nome="Especial">
-                            <exame>
-                                <hora>10:00</hora>
-                                <dia>18</dia>
-                                <tipoSala>Informática</tipoSala>
-                                <sala>P10</sala>
-                                <responsavel>Armando Jorge Neves</responsavel>
-                            </exame>
-                        </epoca>
-                    </epocas>
-                </unidadeCurricular>
-            </unidadesCurriculares>
-        </curso>
-    </cursos>
-</mapa>
+<pei:mapa xmlns:pei ="http://namespace.com/Epocas"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://namespace.com Epocas.xsd">
+    <pei:epocasAvaliacao>
+        <pei:epocaNormal>
+            <pei:dataInicio>18/01/2017</pei:dataInicio>
+            <pei:dataFim>18/02/2017</pei:dataFim>
+        </pei:epocaNormal>
+        <pei:epocaRecurso>
+            <pei:dataInicio>18/01/2017</pei:dataInicio>
+            <pei:dataFim>18/02/2017</pei:dataFim>
+        </pei:epocaRecurso>
+        <pei:epocaEspecial>
+            <pei:dataInicio>18/01/2017</pei:dataInicio>
+            <pei:dataFim>18/02/2017</pei:dataFim>
+        </pei:epocaEspecial>
+    </pei:epocasAvaliacao>
+    <pei:cursos>
+        <pei:curso codigo="LEI">
+            <pei:nome></pei:nome>
+            <pei:codigo></pei:codigo>
+            <pei:coordenador></pei:coordenador>
+            <pei:unidadesCurriculares>
+                <pei:unidadeCurricular cod="PEI">
+                    <pei:nome>PEI</pei:nome>
+                    <pei:areaCientifica>Informatica</pei:areaCientifica>
+                    <pei:anoCurricular>2</pei:anoCurricular>
+                    <pei:semestre>1</pei:semestre>
+                    <pei:responsavel>Cristovão</pei:responsavel>
+                    <pei:tipologias>
+                        <pei:tipologia>T</pei:tipologia>
+                        <pei:tipologia>TP</pei:tipologia>
+                    </pei:tipologias>
+                    <pei:epocas>
+                        <pei:epoca nome="Normal">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:ala>P10</pei:ala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                        </pei:exame>
+                    </pei:epoca>
+                        <pei:epoca nome="Recurso">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>19</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                        </pei:exame>
+                    </pei:epoca>
+                        <pei:epoca nome="Especial">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>20</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                        </pei:exame>
+                    </pei:epoca>
+                    </pei:epocas>
+                </pei:unidadeCurricular>
+                <pei:unidadeCurricular cod="PEI">
+                    <pei:nome>LDS</pei:nome>
+                    <pei:areaCientifica>Informatica</pei:areaCientifica>
+                    <pei:anoCurricular>2</pei:anoCurricular>
+                    <pei:semestre>1</pei:semestre>
+                    <pei:responsavel>Cristovão</pei:responsavel>
+                    <pei:tipologias>
+                        <pei:tipologia>T</pei:tipologia>
+                        <pei:tipologia>TP</pei:tipologia>
+                    </pei:tipologias>
+                    <pei:epocas>
+                        <pei:epoca nome="Normal">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                            </pei:exame>
+                        </pei:epoca>
+                        <pei:epoca nome="Recurso">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                            </pei:exame>
+                        </pei:epoca>
+                        <pei:epoca nome="Especial">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                            </pei:exame>
+                        </pei:epoca>
+                    </pei:epocas>
+                </pei:unidadeCurricular>
+            </pei:unidadesCurriculares>
+        </pei:curso>
+        <pei:curso codigo="SIRC">
+            <pei:unidadesCurriculares>
+                <pei:unidadeCurricular cod="PEI">
+                    <pei:nome>PEI</pei:nome>
+                    <pei:areaCientifica>Informatica</pei:areaCientifica>
+                    <pei:anoCurricular>2</pei:anoCurricular>
+                    <pei:semestre>1</pei:semestre>
+                    <pei:responsavel>Cristovão</pei:responsavel>
+                    <pei:tipologias>
+                        <pei:tipologia>T</pei:tipologia>
+                        <pei:tipologia>TP</pei:tipologia>
+                    </pei:tipologias>
+                    <pei:epocas>
+                        <pei:epoca nome="Normal">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                            </pei:exame>
+                        </pei:epoca>
+                        <pei:epoca nome="Recurso">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                            </pei:exame>
+                        </pei:epoca>
+                        <pei:epoca nome="Especial">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                            </pei:exame>
+                        </pei:epoca>
+                    </pei:epocas>
+                </pei:unidadeCurricular>
+                <pei:unidadeCurricular cod="PEI">
+                    <pei:nome>LSD</pei:nome>
+                    <pei:areaCientifica>Informatica</pei:areaCientifica>
+                    <pei:anoCurricular>2</pei:anoCurricular>
+                    <pei:semestre>1</pei:semestre>
+                    <pei:responsavel>Cristovão</pei:responsavel>
+                    <pei:tipologias>
+                        <pei:tipologia>T</pei:tipologia>
+                        <pei:tipologia>TP</pei:tipologia>
+                    </pei:tipologias>
+                    <pei:epocas>
+                        <pei:epoca nome="Normal">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                            </pei:exame>
+                        </pei:epoca>
+                        <pei:epoca nome="Recurso">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                            </pei:exame>
+                        </pei:epoca>
+                        <pei:epoca nome="Especial">
+                            <pei:exame>
+                                <pei:hora>10:00</pei:hora>
+                                <pei:dia>18</pei:dia>
+                                <pei:tipoSala>Informática</pei:tipoSala>
+                                <pei:sala>P10</pei:sala>
+                                <pei:responsavel>Armando Jorge Neves</pei:responsavel>
+                            </pei:exame>
+                        </pei:epoca>
+                    </pei:epocas>
+                </pei:unidadeCurricular>
+            </pei:unidadesCurriculares>
+        </pei:curso>
+    </pei:cursos>
+</pei:mapa>
