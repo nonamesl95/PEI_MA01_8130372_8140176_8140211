@@ -62,7 +62,7 @@
                     </epocas>
                 </unidadeCurricular>
                 <unidadeCurricular cod="PEI">
-                    <nome>PEI</nome>
+                    <nome>LDS</nome>
                     <areaCientifica>Informatica</areaCientifica>
                     <anoCurricular>2</anoCurricular>
                     <semestre>1</semestre>
@@ -146,7 +146,7 @@
                     </epocas>
                 </unidadeCurricular>
                 <unidadeCurricular cod="PEI">
-                    <nome>PEI</nome>
+                    <nome>LSD</nome>
                     <areaCientifica>Informatica</areaCientifica>
                     <anoCurricular>2</anoCurricular>
                     <semestre>1</semestre>
