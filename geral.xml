@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<calendario>
+    <tipo_curso tipo="Licenciatura">
+    <curso nome="LEI">
+            <!-- 
+            <data_inicio></data_inicio>
+            <data_fim></data_fim>
+            -->
+            <cadeira nome="PEI">
+                <codigo></codigo>
+                <regente></regente>
+                <exame epoca="normal" ano_curricular="2" semestre="1">
+                    <data>
+                        <dia></dia>
+                        <mes></mes>
+                    </data>
+                    <tipologia>TP</tipologia>
+                    <tipo_sala>Informática</tipo_sala>
+                    <area>Informática</area>
+                </exame>
+            </cadeira>
+            <cadeira nome="ALGA">
+                <codigo></codigo>
+                <regente></regente>
+                <exame epoca="normal" ano_curricular="1" semestre="1">
+                    <data>
+                        <dia></dia>
+                        <mes></mes>
+                    </data>
+                    <tipologia>TP</tipologia>
+                    <tipo_sala>Normal</tipo_sala>
+                    <area>Matemática</area>
+                </exame>
+            </cadeira>
+        
+    </curso>
+    </tipo_curso>
+</calendario>
