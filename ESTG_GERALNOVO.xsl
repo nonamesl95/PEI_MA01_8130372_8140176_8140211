@@ -4,15 +4,20 @@
  
     <xsl:template match="/"> 
         <html>
+            <head>
+                <link rel="stylesheet" href="mapaGeralStyles.css"/>
+                <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'/>
+            </head>
             <body>
-                <h2>Mapa de Exames ESTG </h2>
+                <header>Mapa de Exames ESTG</header>
+                
                 <h3>Epoca Normal - <xsl:value-of select="mapa/epocasAvaliacao/epocaNormal"/></h3>
                 <xsl:for-each select="mapa/cursos/curso">
                 
                     <h3>Curso: <xsl:value-of select="@codigo"/></h3>
                     
                     <table border="1">
-                        <tr bgcolor="#9acd32">
+                        <tr>
                             <th>Dia</th>
                             <th>Ano</th>
                             <th>Unidade Curricular</th>
@@ -35,7 +40,7 @@
                     </table>
                     <h3>Epoca Recurso - <xsl:value-of select="../../epocasAvaliacao/epocaRecurso"/></h3>
                     <table border="1">
-                        <tr bgcolor="#9acd32">
+                        <tr >
                             <th>Dia</th>
                             <th>Ano</th>
                             <th>Unidade Curricular</th>
@@ -56,7 +61,7 @@
                     </table>
                     <h3>Epoca Especial - - <xsl:value-of select="../../epocasAvaliacao/epocaEspecial"/></h3>
                     <table border="1">
-                        <tr bgcolor="#9acd32">
+                        <tr >
                             <th>Dia</th>
                             <th>Ano</th>
                             <th>Unidade Curricular</th>
