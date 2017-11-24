@@ -5,6 +5,15 @@
     <xs:element name="mapa">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="curso">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nome" type="xs:string"/>
+                            <xs:element name="codigo" type="xs:string"/>
+                            <xs:element name="regente" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>       
                 <xs:element name="epocasAvaliacao">
                     <xs:complexType>
                         <xs:sequence>
@@ -16,35 +25,35 @@
                                         <xs:element name="exames">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                     <xs:element name="exame" maxOccurs="unbounded">
-                                                         <xs:complexType>
-                                                             <xs:sequence>
-                                                                 <xs:element name="uCurricular">
-                                                                     <xs:complexType>
-                                                                         <xs:sequence>
-                                                                             <xs:element name="nome" type="xs:string"/>                            
-                                                                             <xs:element name="areaCientifica" type="xs:string"/>
-                                                                             <xs:element name="anoCurricular" type="xs:string"/>
-                                                                             <xs:element name="semestre" type="xs:string"/>
-                                                                             <xs:element name="regente" type="xs:string"/>
-                                                                             <xs:element name="tipologias">
-                                                                                 <xs:complexType>
-                                                                                     <xs:sequence>
-                                                                                         <xs:element name="tipologia" type="xs:string"/>
-                                                                                         <xs:element name="tipologia" type="xs:string"/>
-                                                                                     </xs:sequence>
-                                                                                 </xs:complexType>
-                                                                             </xs:element>
-                                                                         </xs:sequence>
-                                                                     </xs:complexType>
-                                                                 </xs:element>
-                                                                 <xs:element name="hora" type="xs:string"/>
-                                                                 <xs:element name="dia" type="xs:string"/>
-                                                                 <xs:element name="tipoSala" type="xs:string"/>
-                                                                 <xs:element name="responsavel" type="xs:string"/>
-                                                             </xs:sequence>
-                                                         </xs:complexType>
-                                                     </xs:element>
+                                                    <xs:element name="exame" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="uCurricular">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="nome" type="xs:string"/>                            
+                                                                            <xs:element name="areaCientifica" type="xs:string"/>
+                                                                            <xs:element name="anoCurricular" type="xs:string"/>
+                                                                            <xs:element name="semestre" type="xs:string"/>
+                                                                            <xs:element name="regente" type="xs:string"/>
+                                                                            <xs:element name="tipologias">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                        <xs:element name="tipologia" type="xs:string"/>
+                                                                                        <xs:element name="tipologia" type="xs:string"/>
+                                                                                    </xs:sequence>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="hora" type="xs:string"/>
+                                                                <xs:element name="dia" type="xs:string"/>
+                                                                <xs:element name="tipoSala" type="xs:string"/>
+                                                                <xs:element name="responsavel" type="xs:string"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
@@ -143,4 +152,6 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
+
 </xs:schema>
