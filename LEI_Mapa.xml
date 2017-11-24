@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mapa>
+    <curso>
+        <nome></nome>
+        <codigo></codigo>
+        <regente></regente>
+    </curso>
     <epocasAvaliacao>
         <normal>
             <dataInicio>18/01/2017</dataInicio>
