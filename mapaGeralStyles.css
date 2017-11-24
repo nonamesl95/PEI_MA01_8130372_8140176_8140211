@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(222, 210, 203);
+}
+header{
+   padding: 20px;
+    background-color: rgb(245, 241, 239);
+    clear: left;
+    color: rgb(220, 88, 2);
+    text-align:center;
+    font-size: 50px;
+    font-family:Aladin;
+ 
+}
+
+.epocasDesc{
+    font-family:Aladin;
+    font-size:18px;
+}

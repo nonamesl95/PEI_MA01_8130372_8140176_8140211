@@ -11,11 +11,11 @@
             <body>
                 <header>Mapa de Exames ESTG</header>
                 
-                <h3>Epoca Normal - <xsl:value-of select="mapa/epocasAvaliacao/epocaNormal"/></h3>
+               
                 <xsl:for-each select="mapa/cursos/curso">
                 
-                    <h3>Curso: <xsl:value-of select="@codigo"/></h3>
-                    
+                    <h3><xsl:value-of select="nome"/></h3>
+                    <div class="epocasDesc">Epoca Normal - <xsl:value-of select="../../epocasAvaliacao/epocaNormal"/></div>
                     <table border="1">
                         <tr>
                             <th>Dia</th>
@@ -38,7 +38,7 @@
                            </tr>
                         </xsl:for-each>
                     </table>
-                    <h3>Epoca Recurso - <xsl:value-of select="../../epocasAvaliacao/epocaRecurso"/></h3>
+                    <div class="epocasDesc">Epoca Recurso - <xsl:value-of select="../../epocasAvaliacao/epocaRecurso"/></div>
                     <table border="1">
                         <tr >
                             <th>Dia</th>
@@ -59,7 +59,7 @@
                             </tr>
                         </xsl:for-each>
                     </table>
-                    <h3>Epoca Especial - - <xsl:value-of select="../../epocasAvaliacao/epocaEspecial"/></h3>
+                    <div class="epocasDesc">Epoca Especial - - <xsl:value-of select="../../epocasAvaliacao/epocaEspecial"/></div>
                     <table border="1">
                         <tr >
                             <th>Dia</th>
