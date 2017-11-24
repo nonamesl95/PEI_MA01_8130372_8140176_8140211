@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapa>
+    <epocasAvaliacao>
+    <epocaNormal>
+        <dataInicio>18/01/2017</dataInicio>
+    <dataFim>18/02/2017</dataFim>
+    </epocaNormal>
+    <epocaRecurso>
+        <dataInicio>18/01/2017</dataInicio>
+        <dataFim>18/02/2017</dataFim>
+    </epocaRecurso>
+    <epocaEspecial>
+        <dataInicio>18/01/2017</dataInicio>
+        <dataFim>18/02/2017</dataFim>
+    </epocaEspecial>
+    </epocasAvaliacao>
+    <cursos>
+        <curso codigo="LEI">
+            <nome></nome>
+            <codigo></codigo>
+            <coordenador></coordenador>
+            <unidadesCurriculares>
+                <unidadeCurricular cod="PEI">
+                    <nome>PEI</nome>
+                    <areaCientifica>Informatica</areaCientifica>
+                    <anoCurricular>2</anoCurricular>
+                    <semestre>1</semestre>
+                    <responsavel>Cristovão</responsavel>
+                    <tipologias>
+                        <tipologia>T</tipologia>
+                        <tipologia>TP</tipologia>
+                    </tipologias>
+                    <epocas>
+                    <epoca nome="Normal">
+                        <exame>
+                            <hora>10:00</hora>
+                            <dia>18</dia>
+                            <tipoSala>Informática</tipoSala>
+                            <responsavel>Armando Jorge Neves</responsavel>
+                        </exame>
+                    </epoca>
+                    <epoca nome="Recurso">
+                        <exame>
+                            <hora>10:00</hora>
+                            <dia>18</dia>
+                            <tipoSala>Informática</tipoSala>
+                            <responsavel>Armando Jorge Neves</responsavel>
+                        </exame>
+                    </epoca>
+                    <epoca nome="Especial">
+                        <exame>
+                            <hora>10:00</hora>
+                            <dia>18</dia>
+                            <tipoSala>Informática</tipoSala>
+                            <responsavel>Armando Jorge Neves</responsavel>
+                        </exame>
+                    </epoca>
+                    </epocas>
+                </unidadeCurricular>
+                <unidadeCurricular cod="PEI">
+                    <nome>PEI</nome>
+                    <areaCientifica>Informatica</areaCientifica>
+                    <anoCurricular>2</anoCurricular>
+                    <semestre>1</semestre>
+                    <responsavel>Cristovão</responsavel>
+                    <tipologias>
+                        <tipologia>T</tipologia>
+                        <tipologia>TP</tipologia>
+                    </tipologias>
+                    <epocas>
+                        <epoca nome="Normal">
+                            <exame>
+                                <hora>10:00</hora>
+                                <dia>18</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Recurso">
+                            <exame>
+                                <hora>10:00</hora>
+                                <dia>18</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Especial">
+                            <exame>
+                                <hora>10:00</hora>
+                                <dia>18</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                    </epocas>
+                </unidadeCurricular>
+            </unidadesCurriculares>
+        </curso>
+        <curso codigo="SIRC">
+            <unidadesCurriculares>
+                <unidadeCurricular cod="PEI">
+                    <nome>PEI</nome>
+                    <areaCientifica>Informatica</areaCientifica>
+                    <anoCurricular>2</anoCurricular>
+                    <semestre>1</semestre>
+                    <responsavel>Cristovão</responsavel>
+                    <tipologias>
+                        <tipologia>T</tipologia>
+                        <tipologia>TP</tipologia>
+                    </tipologias>
+                    <epocas>
+                        <epoca nome="Normal">
+                            <exame>
+                                <hora>10:00</hora>
+                                <dia>18</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Recurso">
+                            <exame>
+                                <hora>10:00</hora>
+                                <dia>18</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Especial">
+                            <exame>
+                                <hora>10:00</hora>
+                                <dia>18</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                    </epocas>
+                </unidadeCurricular>
+                <unidadeCurricular cod="PEI">
+                    <nome>PEI</nome>
+                    <areaCientifica>Informatica</areaCientifica>
+                    <anoCurricular>2</anoCurricular>
+                    <semestre>1</semestre>
+                    <responsavel>Cristovão</responsavel>
+                    <tipologias>
+                        <tipologia>T</tipologia>
+                        <tipologia>TP</tipologia>
+                    </tipologias>
+                    <epocas>
+                        <epoca nome="Normal">
+                            <exame>
+                                <hora>10:00</hora>
+                                <dia>18</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Recurso">
+                            <exame>
+                                <hora>10:00</hora>
+                                <dia>18</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Especial">
+                            <exame>
+                                <hora>10:00</hora>
+                                <dia>18</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                    </epocas>
+                </unidadeCurricular>
+            </unidadesCurriculares>
+        </curso>
+    </cursos>
+</mapa>
