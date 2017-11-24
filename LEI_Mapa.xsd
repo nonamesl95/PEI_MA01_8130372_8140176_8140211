@@ -17,7 +17,7 @@
                 <xs:element name="epocasAvaliacao">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="normal">
+                            <xs:element name="epoca" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="dataInicio" type="xs:string"/>
@@ -60,7 +60,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="recurso">
+                            <xs:element name="epoca" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="dataInicio" type="xs:string"/>
@@ -103,7 +103,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="especial">
+                            <xs:element name="epoca" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="dataInicio" type="xs:string"/>
