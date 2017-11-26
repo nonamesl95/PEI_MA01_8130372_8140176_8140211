@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(222, 210, 203);
+    background-color: rgb(232, 232, 232);
 }
 header{
    padding: 20px;
@@ -11,8 +11,28 @@ header{
     font-family:Aladin;
  
 }
-
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border:2px;
+}
 .epocasDesc{
     font-family:Aladin;
     font-size:18px;
+    padding-bottom:15px;
+    padding-top:15px;
+  color:rgb(156, 156, 156);
+}
+h3{
+     color: rgb(220, 88, 2);
+}
+.tableEpoca{
+      width: 50%;
+  margin: 0 auto;
+}
+header #image,
+header #txt{
+padding-left:15px;
+     display: inline-block;
+    vertical-align: bottom;
 }
