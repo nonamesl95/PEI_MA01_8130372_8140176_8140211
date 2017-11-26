@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://namespace.com/epocasAvaliacao" xmlns="http://namespace.com/epocasAvaliacao"
+    >
+    
+    <xs:complexType name="epocasAvaliacaoType">
+        <xs:sequence>
+            <xs:element name="epocaNormal">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="dataInicio" type="xs:date"/>
+                        <xs:element name="dataFim" type="xs:date"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="epocaRecurso">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="dataInicio" type="xs:date"/>
+                        <xs:element name="dataFim" type="xs:date"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="epocaEspecial">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="dataInicio" type="xs:date"/>
+                        <xs:element name="dataFim" type="xs:date"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+</xs:schema>

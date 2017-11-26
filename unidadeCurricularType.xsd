@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:ep="http://namespace.com/epocas"
+    xmlns:typ="http://namespace.com/types"
+    targetNamespace="htts://namespace.com/unidadecurricular" xmlns="htts://namespace.com/unidadecurricular"
+    >
+    
+    <xs:import schemaLocation="epocasType.xsd" namespace="http://namespace.com/epocas"/>
+    <xs:import schemaLocation="types.xsd"  namespace="http://namespace.com/types"/>
+    
+    <xs:complexType name="unidadeCurricularType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="nome"/>
+            <xs:element type="typ:areaCientifica" name="areaCientifica"/>
+            <xs:element type="xs:integer" name="anoCurricular"/>
+            <xs:element type="xs:integer" name="semestre"/>
+            <xs:element type="xs:string" name="responsavel"/>
+            <xs:element name="tipologias">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element type="typ:tipologia" name="tipologia" maxOccurs="4" minOccurs="1"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="epocas" type="ep:epocasType"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="cod" use="optional"/>
+    </xs:complexType>
+
+
+</xs:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:typ="http://namespace.com/types"
+    targetNamespace="http://namespace.com/exame" xmlns="http://namespace.com/exame"
+    >
+    
+    <xs:import namespace="http://namespace.com/types" schemaLocation="types.xsd"/>
+    
+        <xs:complexType name="exameType">
+            <xs:sequence>
+                <xs:element name="hora" type="xs:time"/>
+                <xs:element name="dia" type="xs:integer"/>
+                <xs:element name="tipoSala" type="typ:tipoSala"/>
+                <xs:element name="sala" type="typ:sala"/>
+                <xs:element name="responsavel" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:exa="http://namespace.com/exame"
+    targetNamespace="http://namespace.com/epocas" xmlns="http://namespace.com/epocas"
+    >
+    
+    <xs:import schemaLocation="exameType.xsd" namespace="http://namespace.com/exame"/>
+  
+        <xs:complexType name="epocasType">
+            <xs:sequence>
+                <xs:element name="epoca" minOccurs="3" maxOccurs="3">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="exame" type="exa:exameType" minOccurs="1" maxOccurs="1"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="nome" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+</xs:schema>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://namespace.com/types"
+    >
+    
+    <xs:simpleType name="areaCientifica">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Informatica"/>
+            <xs:enumeration value="Ciências"/>
+            <xs:enumeration value="Matemática"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoSala">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Informática"/>
+            <xs:enumeration value="Normal"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="sala">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="P1"/>
+            <xs:enumeration value="P2"/>
+            <xs:enumeration value="P3"/>
+            <xs:enumeration value="P4"/>
+            <xs:enumeration value="P5"/>
+            <xs:enumeration value="P6"/>
+            <xs:enumeration value="P7"/>
+            <xs:enumeration value="P8"/>
+            <xs:enumeration value="P9"/>
+            <xs:enumeration value="P10"/>
+            <xs:enumeration value="P11"/>
+            <xs:enumeration value="P12"/>          
+            <xs:enumeration value="0.1"/>
+            <xs:enumeration value="0.3"/>
+            <xs:enumeration value="Auditorio 1"/>
+            <xs:enumeration value="Auditorio 2"/>
+            <xs:enumeration value="Auditorio 3"/>
+            <xs:enumeration value="Auditorio 4"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+    
+    
+</xs:schema>
