@@ -1,4 +1,4 @@
-declare namespace pei="http://namespace.com/Epocas";
+
 <html>
 <body>
 
@@ -10,12 +10,12 @@ declare namespace pei="http://namespace.com/Epocas";
 </tr>
 {
 
-for $x in doc('ESTG_GERALNOVO.xml')/pei:mapa/pei:cursos
+for $x in doc('ESTG_MAPA.xml')/mapa/cursos
 return <tr>
 
 {
-for $i in $x/pei:curso/pei:unidadesCurriculares/pei:unidadeCurricular
-return <tr><td>{data($i/@cod)}</td><td>{data($i/pei:nome)}</td><td>{data($i/pei:responsavel)}</td></tr>
+for $i in $x/curso/unidadesCurriculares/unidadeCurricular
+return <tr><td>{data($i/@cod)}</td><td>{data($i/nome)}</td><td>{data($i/responsavel)}</td></tr>
 }
 </tr>
 }
