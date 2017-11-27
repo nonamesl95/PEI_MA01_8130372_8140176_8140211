@@ -8,11 +8,8 @@
                 <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'/>
             </head>
             <body>
-                <header>Mapa de Exames ESTG</header>
-                
-               
+                <header><div id="txt">Mapa de Exames</div><div id="image"><img src="images/logo-ipp.png"></img></div></header>
                 <xsl:for-each select="mapa/cursos/curso">
-                
                     <h3><xsl:value-of select="nome"/></h3>
                     <div class="epocasDesc">Epoca Normal - <xsl:value-of select="../../epocasAvaliacao/epocaNormal"/></div>
                     <table border="1">
