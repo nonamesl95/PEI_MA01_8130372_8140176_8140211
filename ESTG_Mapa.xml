@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet type="text/xsl" href="ESTG_GERALNOVO.xsl"?>
 <mapa>
-    
     <epocasAvaliacao>
         <epocaNormal>
             <dataInicio>2018-01-14</dataInicio>
