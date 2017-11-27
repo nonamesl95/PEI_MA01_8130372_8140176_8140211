@@ -22,16 +22,18 @@
                             <th>Responsavel</th>
                         </tr>
                         <xsl:for-each select="unidadesCurriculares/unidadeCurricular">
+                            <xsl:for-each select="epocas/epoca[@nome='Normal']/exame">
                            <tr>
-                               <td><xsl:value-of select="epocas/epoca[@nome='Normal']/exame/dia"/> - 
+                               <td><xsl:value-of select="dia"/> - 
                                
                              </td>
-                               <td><xsl:value-of select="anoCurricular"/></td>
-                               <td><xsl:value-of select="nome"/></td>
-                               <td><xsl:value-of select="epocas/epoca[@nome='Normal']/exame/hora"/></td>
-                               <td><xsl:value-of select="epocas/epoca[@nome='Normal']/exame/sala"/></td>
-                               <td><xsl:value-of select="epocas/epoca[@nome='Normal']/exame/responsavel"/></td>
+                               <td><xsl:value-of select="../../../anoCurricular"/></td>
+                               <td><xsl:value-of select="../../../nome"/></td>
+                               <td><xsl:value-of select="hora"/></td>
+                               <td><xsl:value-of select="sala"/></td>
+                               <td><xsl:value-of select="responsavel"/></td>
                            </tr>
+                            </xsl:for-each>
                         </xsl:for-each>
                     </table>
                     <div class="epocasDesc">Epoca Recurso - <xsl:value-of select="../../epocasAvaliacao/epocaRecurso"/></div>
@@ -45,14 +47,18 @@
                             <th>Responsavel</th>
                         </tr>
                         <xsl:for-each select="unidadesCurriculares/unidadeCurricular">
-                            <tr>
-                                <td><xsl:value-of select="epocas/epoca[@nome='Recurso']/exame/dia"/></td>
-                                <td><xsl:value-of select="anoCurricular"/></td>
-                                <td><xsl:value-of select="nome"/></td>
-                                <td><xsl:value-of select="epocas/epoca[@nome='Recurso']/exame/hora"/></td>
-                                <td><xsl:value-of select="epocas/epoca[@nome='Recurso']/exame/sala"/></td>
-                                <td><xsl:value-of select="epocas/epoca[@nome='Recurso']/exame/responsavel"/></td>
-                            </tr>
+                            <xsl:for-each select="epocas/epoca[@nome='Recurso']/exame">
+                                <tr>
+                                    <td><xsl:value-of select="dia"/> - 
+                                        
+                                    </td>
+                                    <td><xsl:value-of select="../../../anoCurricular"/></td>
+                                    <td><xsl:value-of select="../../../nome"/></td>
+                                    <td><xsl:value-of select="hora"/></td>
+                                    <td><xsl:value-of select="sala"/></td>
+                                    <td><xsl:value-of select="responsavel"/></td>
+                                </tr>
+                            </xsl:for-each>
                         </xsl:for-each>
                     </table>
                     <div class="epocasDesc">Epoca Especial - - <xsl:value-of select="../../epocasAvaliacao/epocaEspecial"/></div>
@@ -66,14 +72,18 @@
                             <th>Responsavel</th>
                         </tr>
                         <xsl:for-each select="unidadesCurriculares/unidadeCurricular">
-                            <tr>
-                                <td><xsl:value-of select="epocas/epoca[@nome='Especial']/exame/dia"/></td>
-                                <td><xsl:value-of select="anoCurricular"/></td>
-                                <td><xsl:value-of select="nome"/></td>
-                                <td><xsl:value-of select="epocas/epoca[@nome='Especial']/exame/hora"/></td>
-                                <td><xsl:value-of select="epocas/epoca[@nome='Especial']/exame/sala"/></td>
-                                <td><xsl:value-of select="epocas/epoca[@nome='Especial']/exame/responsavel"/></td>
-                            </tr>
+                            <xsl:for-each select="epocas/epoca[@nome='Especial']/exame">
+                                <tr>
+                                    <td><xsl:value-of select="dia"/> - 
+                                        
+                                    </td>
+                                    <td><xsl:value-of select="../../../anoCurricular"/></td>
+                                    <td><xsl:value-of select="../../../nome"/></td>
+                                    <td><xsl:value-of select="hora"/></td>
+                                    <td><xsl:value-of select="sala"/></td>
+                                    <td><xsl:value-of select="responsavel"/></td>
+                                </tr>
+                            </xsl:for-each>
                         </xsl:for-each>
                     </table>
                     <hr></hr>

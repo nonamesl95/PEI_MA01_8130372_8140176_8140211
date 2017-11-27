@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ESTG_GERALNOVO.xsl"?>
+<mapa>
+    <epocasAvaliacao>
+        <epocaNormal>
+            <dataInicio>2018-01-14</dataInicio>
+            <dataFim>2018-02-14</dataFim>
+        </epocaNormal>
+        <epocaRecurso>
+            <dataInicio>2018-01-14</dataInicio>
+            <dataFim>2018-02-14</dataFim>
+        </epocaRecurso>
+        <epocaEspecial>
+            <dataInicio>2018-01-14</dataInicio>
+            <dataFim>2018-02-14</dataFim>
+        </epocaEspecial>
+    </epocasAvaliacao>
+    
+    <cursos>    
+        <curso codigo="LEI">
+            <nome>Licenciatura em Engenharia Informatica</nome>
+            <codigo></codigo>
+            <coordenador></coordenador>
+            <unidadesCurriculares>
+                <unidadeCurricular cod="PEI">
+                    <nome>PEI</nome>
+                    <areaCientifica>Informatica</areaCientifica>
+                    <anoCurricular>2</anoCurricular>
+                    <semestre>1</semestre>
+                    <responsavel >
+                        <nome>Cris</nome>
+                        <cod>007</cod>
+                    </responsavel>
+                    <tipologias>
+                        <tipologia>T</tipologia>
+                        <tipologia>TP</tipologia>
+                    </tipologias>
+                    <epocas>
+                        <epoca nome="Normal">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                                
+                            </exame>
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Recurso">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Especial">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                    </epocas>
+                </unidadeCurricular>
+                <unidadeCurricular cod="PEI">
+                    <nome>LDS</nome>
+                    <areaCientifica>Informatica</areaCientifica>
+                    <anoCurricular>2</anoCurricular>
+                    <semestre>1</semestre>
+                    <responsavel>
+                        <nome>Cris</nome>
+                        <cod>007</cod>
+                    </responsavel>
+                    <tipologias>
+                        <tipologia>T</tipologia>
+                        <tipologia>TP</tipologia>
+                    </tipologias>
+                    <epocas>
+                        <epoca nome="Normal">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Recurso">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Especial">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                    </epocas>
+                </unidadeCurricular>
+            </unidadesCurriculares>
+        </curso>
+        <curso codigo="SIRC">
+            <nome>Licenciatura em Segurança</nome>
+            <codigo></codigo>
+            <coordenador></coordenador>
+            <unidadesCurriculares>
+                <unidadeCurricular cod="PEI">
+                    <nome>PEI</nome>
+                    <areaCientifica>Informatica</areaCientifica>
+                    <anoCurricular>2</anoCurricular>
+                    <semestre>1</semestre>
+                    <responsavel>
+                        <nome>Cris</nome>
+                        <cod>007</cod>
+                    </responsavel>
+                    <tipologias>
+                        <tipologia>T</tipologia>
+                        <tipologia>TP</tipologia>
+                    </tipologias>
+                    <epocas>
+                        <epoca nome="Normal">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Recurso">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Especial">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                    </epocas>
+                </unidadeCurricular>
+                <unidadeCurricular cod="PEI">
+                    <nome>LSD</nome>
+                    <areaCientifica>Informatica</areaCientifica>
+                    <anoCurricular>2</anoCurricular>
+                    <semestre>1</semestre>
+                    <responsavel>
+                        <nome>Cris</nome>
+                        <cod>006</cod>
+                    </responsavel>
+                    <tipologias>
+                        <tipologia>T</tipologia>
+                        <tipologia>TP</tipologia>
+                    </tipologias>
+                    <epocas>
+                        <epoca nome="Normal">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Recurso">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                        <epoca nome="Especial">
+                            <exame>
+                                <hora>10:00:00</hora>
+                                <dia>2018-01-14</dia>
+                                <tipoSala>Informática</tipoSala>
+                                <sala>Auditorio 1</sala>
+                                <responsavel>Armando Jorge Neves</responsavel>
+                            </exame>
+                        </epoca>
+                    </epocas>
+                </unidadeCurricular>
+            </unidadesCurriculares>
+        </curso>
+    </cursos>
+</mapa>
