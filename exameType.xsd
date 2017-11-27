@@ -9,7 +9,7 @@
         <xs:complexType name="exameType">
             <xs:sequence>
                 <xs:element name="hora" type="xs:time"/>
-                <xs:element name="dia" type="xs:integer"/>
+                <xs:element name="dia" type="xs:date"/>
                 <xs:element name="tipoSala" type="typ:tipoSala"/>
                 <xs:element name="sala" type="typ:sala"/>
                 <xs:element name="responsavel" type="xs:string"/>

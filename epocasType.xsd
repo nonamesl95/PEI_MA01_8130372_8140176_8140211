@@ -11,7 +11,7 @@
                 <xs:element name="epoca" minOccurs="3" maxOccurs="3">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="exame" type="exa:exameType" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="exame" type="exa:exameType" minOccurs="1" maxOccurs="2"/>
                         </xs:sequence>
                         <xs:attribute type="xs:string" name="nome" use="optional"/>
                     </xs:complexType>

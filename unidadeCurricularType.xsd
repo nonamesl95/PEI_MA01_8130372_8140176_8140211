@@ -14,7 +14,15 @@
             <xs:element type="typ:areaCientifica" name="areaCientifica"/>
             <xs:element type="xs:integer" name="anoCurricular"/>
             <xs:element type="xs:integer" name="semestre"/>
-            <xs:element type="xs:string" name="responsavel"/>
+            <xs:element name="responsavel">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element type="xs:string" name="nome"/>
+                        <xs:element type="xs:string" name="cod"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            
             <xs:element name="tipologias">
                 <xs:complexType>
                     <xs:sequence>
