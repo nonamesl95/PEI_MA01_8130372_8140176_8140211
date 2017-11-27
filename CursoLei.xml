@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso codigo="LEI">
+    <nome>Licenciatura em Engenharia Informatica</nome>
+    <codigo>111</codigo>
+    <coordenador>Ricardo Santos</coordenador>
+    <unidadesCurriculares>
+        <unidadeCurricular cod="PEI">
+            <nome>PEI</nome>
+            <areaCientifica>Informatica</areaCientifica>
+            <anoCurricular>2</anoCurricular>
+            <semestre>1</semestre>
+            <responsavel >
+                <nome>Cristovão</nome>
+                <cod>007</cod>
+            </responsavel>
+            <tipologias>
+                <tipologia>T</tipologia>
+                <tipologia>TP</tipologia>
+            </tipologias>
+            <epocas>
+                <epoca nome="Normal">
+                    <exame tipologia="TP">
+                        <hora>10:00:00</hora>
+                        <dia>2018-01-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>p10</sala>
+                        <responsavel>Armando Jorge Neves</responsavel> 
+                    </exame>
+                    <exame tipologia="PL">
+                        <hora>14:00:00</hora>
+                        <dia>2018-01-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>Auditorio 1</sala>
+                        <responsavel>Teofilo Neves</responsavel>
+                    </exame>
+                </epoca>
+                <epoca nome="Recurso">
+                    <exame tipologia="TP">
+                        <hora>10:00:00</hora>
+                        <dia>2018-02-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>Auditorio 1</sala>
+                        <responsavel>Armando Jorge Neves</responsavel>
+                    </exame>
+                    <exame tipologia="PL">
+                        <hora>14:00:00</hora>
+                        <dia>2018-02-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>p10</sala>
+                        <responsavel>Teofilo Neves</responsavel>
+                    </exame>
+                </epoca>
+                <epoca nome="Especial">
+                    <exame tipologia="TP">
+                        <hora>10:00:00</hora>
+                        <dia>2018-09-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>Auditorio 1</sala>
+                        <responsavel>Armando Jorge Neves</responsavel>
+                    </exame>
+                    <exame tipologia="PL">
+                        <hora>14:00:00</hora>
+                        <dia>2018-09-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>p10</sala>
+                        <responsavel>Teofilo Neves</responsavel>
+                    </exame>
+                </epoca>
+            </epocas>
+        </unidadeCurricular>
+    </unidadesCurriculares>
+</curso>

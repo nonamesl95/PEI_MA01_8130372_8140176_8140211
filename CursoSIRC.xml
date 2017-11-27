@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso codigo="SIRC">
+    <nome>Licenciatura em Segurança de Redes Informaticas</nome>
+    <codigo>120</codigo>
+    <coordenador>Altino Sampaio</coordenador>
+    <unidadesCurriculares>
+        <unidadeCurricular cod="ASI">
+            <nome>ASI</nome>
+            <areaCientifica>Informatica</areaCientifica>
+            <anoCurricular>3</anoCurricular>
+            <semestre>1</semestre>
+            <responsavel>
+                <nome>Paulo Magalhaes</nome>
+                <cod>400</cod>
+            </responsavel>
+            <tipologias>
+                <tipologia>PL</tipologia>
+                <tipologia>TP</tipologia>
+            </tipologias>
+            <epocas>
+                <epoca nome="Normal">
+                    <exame tipologia="TP">
+                        <hora>10:00:00</hora>
+                        <dia>2018-01-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>0.1</sala>
+                        <responsavel>Bruno Oliveira</responsavel>
+                    </exame>
+                    <exame tipologia="PL">
+                        <hora>16:00:00</hora>
+                        <dia>2018-01-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>0.1</sala>
+                        <responsavel>Bruno Oliveira</responsavel>
+                    </exame>
+                </epoca>
+                <epoca nome="Recurso">
+                    <exame tipologia="TP">
+                        <hora>10:00:00</hora>
+                        <dia>2018-02-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>0.1</sala>
+                        <responsavel>Armando Neves</responsavel>
+                    </exame>
+                    <exame tipologia="PL">
+                        <hora>16:00:00</hora>
+                        <dia>2018-02-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>0.1</sala>
+                        <responsavel>Bruno Oliveira</responsavel>
+                    </exame>
+                </epoca>
+                <epoca nome="Especial">
+                    <exame tipologia="TP">
+                        <hora>10:00:00</hora>
+                        <dia>2018-09-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>0.1</sala>
+                        <responsavel>Jorge Neves</responsavel>
+                    </exame>
+                    <exame tipologia="PL">
+                        <hora>16:00:00</hora>
+                        <dia>2018-09-14</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>0.1</sala>
+                        <responsavel>Bruno Oliveira</responsavel>
+                    </exame>
+                </epoca>
+            </epocas>
+        </unidadeCurricular>
+        
+    </unidadesCurriculares>
+</curso>
