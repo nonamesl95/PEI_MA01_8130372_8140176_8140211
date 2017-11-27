@@ -3,6 +3,15 @@
     targetNamespace="http://namespace.com/types"
     >
     
+    <xs:simpleType name="tipologia">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="T"/>
+            <xs:enumeration value="TP"/>
+            <xs:enumeration value="PL"/>
+            <xs:enumeration value="OT"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
     <xs:simpleType name="areaCientifica">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Informatica"/>
