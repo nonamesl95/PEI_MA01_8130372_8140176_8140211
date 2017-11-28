@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ESTG_GERALNOVO.xsl"?>
-<mapa>
+<mapa xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="ESTG_Mapa.xsd">
     <epocasAvaliacao>
         <epocaNormal>
             <dataInicio>2018-01-14</dataInicio>
@@ -15,7 +15,6 @@
             <dataFim>2018-02-14</dataFim>
         </epocaEspecial>
     </epocasAvaliacao>
-    
     <cursos>    
         <curso codigo="LEI">
             <nome>Licenciatura em Engenharia Informatica</nome>
