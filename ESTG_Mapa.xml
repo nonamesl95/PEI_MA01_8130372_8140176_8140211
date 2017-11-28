@@ -46,7 +46,7 @@
                         <epoca nome="Recurso">
                             <exame tipologia="P">
                                 <hora>14:00:00</hora>
-                                <dia>2018-01-15</dia>
+                                <dia>2018-03-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 1</sala>
                                 <semana>1</semana>
@@ -55,7 +55,7 @@
                         <epoca nome="Especial">
                             <exame tipologia="T">
                                 <hora>14:00:00</hora>
-                                <dia>2018-01-15</dia>
+                                <dia>2018-07-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 1</sala>
                                 <semana>1</semana>
@@ -66,7 +66,7 @@
                 <unidadeCurricular cod="ED">
                     <nome>Estrutura de Dados</nome>
                     <areaCientifica>Informática</areaCientifica>
-                    <anoCurricular>2</anoCurricular>
+                    <anoCurricular>1</anoCurricular>
                     <semestre>1</semestre>
                     <responsavel>
                         <nome>Ricardo Santos</nome>
