@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feriados>
+<feriados xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="feriados.xsd">
     <feriado>
-        <data>01/01/2018</data>
+        <data>2018-01-01</data>
         <nome>Ano Novo</nome>
     </feriado>
     <feriado>
-        <data>30/03/2018</data>
+        <data>2018-03-30</data>
         <nome>Sexta feira Santa</nome>
     </feriado>
     <feriado>
-        <data>01/04/2018</data>
+        <data>2018-04-01</data>
         <nome>Pascoa</nome>
     </feriado>
     <feriado>
-        <data>25/04/2018</data>
+        <data>2018-04-25</data>
         <nome>25 de Abril</nome>
     </feriado>
     <feriado>
-        <data>01/05/2018</data>
+        <data>2018-05-01</data>
         <nome>Dia do Trabalhador</nome>
     </feriado>
 </feriados>
