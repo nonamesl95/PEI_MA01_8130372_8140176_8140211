@@ -5,7 +5,7 @@ return <line>
 
 {
 for $i in $x/curso/unidadesCurriculares/unidadeCurricular
-return <line><cod>{data($i/@cod)}</cod><nome>{data($i/nome)}</nome><responsavel>{data($i/responsavel)}</responsavel></line>
+return <line><cod>{data($i/@cod)}</cod><nome>{data($i/nome)}</nome><responsavel>{data($i/responsavel/nome)}</responsavel></line>
 } </line>
 };
 

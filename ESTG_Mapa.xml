@@ -24,7 +24,7 @@
                 <unidadeCurricular cod="PEI">
                     <nome>Processamento estruturado de informação</nome>
                     <areaCientifica>Informática</areaCientifica>
-                    <anoCurricular>2</anoCurricular>
+                    <anoCurricular>1</anoCurricular>
                     <semestre>1</semestre>
                     <responsavel>
                         <nome>Bruno Oliveira</nome>
@@ -35,7 +35,7 @@
                     </tipologias>
                     <epocas>
                         <epoca nome="Normal">
-                            <exame tipologia="TP">
+                            <exame tipologia="T">
                                 <hora>14:00:00</hora>
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
@@ -44,7 +44,7 @@
                             </exame>
                         </epoca>
                         <epoca nome="Recurso">
-                            <exame tipologia="TP">
+                            <exame tipologia="P">
                                 <hora>14:00:00</hora>
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
@@ -53,7 +53,7 @@
                             </exame>
                         </epoca>
                         <epoca nome="Especial">
-                            <exame tipologia="TP">
+                            <exame tipologia="T">
                                 <hora>14:00:00</hora>
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>

@@ -6,4 +6,4 @@ return count(doc('ESTG_MAPA.xml')/mapa/cursos/curso/unidadesCurriculares/unidade
 
 };
 
-local:unidadesCurricularesDocente("007")
+local:unidadesCurricularesDocente("001")

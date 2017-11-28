@@ -1,5 +1,5 @@
-declare function local:calcWeekExams($semana, $semestre, $curso, $anoCurricular){
-    let $semana:=0
+declare function local:calcWeek($semana){
+  let $s:="normal"
        let $dataInicioNormal:= doc('ESTG_MAPA.xml')/mapa/epocasAvaliacao/epocaNormal/dataInicio
    let $dataFimNormal:=doc('ESTG_MAPA.xml')/mapa/epocasAvaliacao/epocaNormal/dataInicio
      let $dataInicioEspecial:= doc('ESTG_MAPA.xml')/mapa/epocasAvaliacao/epocaEspecial/dataInicio
@@ -7,11 +7,27 @@ declare function local:calcWeekExams($semana, $semestre, $curso, $anoCurricular)
      let $dataInicioRecurso:= doc('ESTG_MAPA.xml')/mapa/epocasAvaliacao/epocaRecurso/dataInicio
    let $dataFimRecurso:=doc('ESTG_MAPA.xml')/mapa/epocasAvaliacao/epocaRecurso/dataInicio
    
-   
-    for $x in doc('ESTG_MAPA.xml')/mapa/cursos
-    let $cur:=$x/curso[codigo=$curso]
+return if ((xs:dateTime($semana)>= xs:dateTime($dataInicioNormal))or (xs:dateTime($semana)<= xs:dateTime($dataFimNormal))) then
+let $s:="normal"
+else()
+return if((xs:dateTime($semana)>= xs:dateTime($dataInicioRecurso))or (xs:dateTime($semana)<= xs:dateTime($dataFimRecurso))) then
+ <Erro></Erro>
+else if((xs:dateTime($semana)>= xs:dateTime($dataInicioRecurso))or (xs:dateTime($semana)<= xs:dateTime($dataFimRecurso)))then
+<Erro></Erro>
+else <Erro></Erro>
 
-    return count ($cur/unidadesCurriculares/unidadeCurricular[semestre = $semestre and anoCurricular = $anoCurricular])
+   
+ 
 };
 
-local:calcWeekExams("1", "1", "LEI", "1")
+
+
+declare function local:calcWeekExams($semana, $semestre, $curso, $anoCurricular){
+  for $x in doc('ESTG_MAPA.xml')/mapa/cursos
+    let $cur:=$x/curso[codigo=$curso]
+let $sem:= local:calcWeek($semana)
+    return count ($cur/unidadesCurriculares/unidadeCurricular[semestre = $semestre and anoCurricular = $anoCurricular])
+}
+
+
+ local:calcWeekExams("2018-01-15", "1", "LEI", "1")

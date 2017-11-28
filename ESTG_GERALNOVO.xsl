@@ -31,7 +31,7 @@
                                <td><xsl:value-of select="../../../nome"/></td>
                                <td><xsl:value-of select="hora"/></td>
                                <td><xsl:value-of select="sala"/></td>
-                               <td><xsl:value-of select="responsavel"/></td>
+                               <td><xsl:value-of select="../../../responsavel/nome"/></td>
                            </tr>
                             </xsl:for-each>
                         </xsl:for-each>
@@ -56,7 +56,7 @@
                                     <td><xsl:value-of select="../../../nome"/></td>
                                     <td><xsl:value-of select="hora"/></td>
                                     <td><xsl:value-of select="sala"/></td>
-                                    <td><xsl:value-of select="responsavel"/></td>
+                                    <td><xsl:value-of select="../../../responsavel/nome"/></td>
                                 </tr>
                             </xsl:for-each>
                         </xsl:for-each>
@@ -81,7 +81,7 @@
                                     <td><xsl:value-of select="../../../nome"/></td>
                                     <td><xsl:value-of select="hora"/></td>
                                     <td><xsl:value-of select="sala"/></td>
-                                    <td><xsl:value-of select="responsavel"/></td>
+                                    <td><xsl:value-of select="../../../responsavel/nome"/></td>
                                 </tr>
                             </xsl:for-each>
                         </xsl:for-each>
