@@ -12,8 +12,8 @@
                 <xs:element name="dia" type="xs:date"/>
                 <xs:element name="tipoSala" type="typ:tipoSala"/>
                 <xs:element name="sala" type="typ:sala"/>
-                <xs:element name="responsavel" type="xs:string"/>
             </xs:sequence>
+            <xs:attribute name="tipologia" type="typ:tipologia"/>
         </xs:complexType>
     
 </xs:schema>

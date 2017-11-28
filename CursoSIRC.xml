@@ -1,73 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <curso codigo="SIRC">
-    <nome>Licenciatura em Segurança de Redes Informaticas</nome>
-    <codigo>120</codigo>
-    <coordenador>Altino Sampaio</coordenador>
+    <nome>Licenciatura em Redes Computadores</nome>
+    <codigo>SIRC</codigo>
+    <coordenador>João Magalhães</coordenador>
     <unidadesCurriculares>
         <unidadeCurricular cod="ASI">
-            <nome>ASI</nome>
-            <areaCientifica>Informatica</areaCientifica>
-            <anoCurricular>3</anoCurricular>
+            <nome>Administração Sistemas Computadores</nome>
+            <areaCientifica>Informática</areaCientifica>
+            <anoCurricular>2</anoCurricular>
             <semestre>1</semestre>
             <responsavel>
-                <nome>Paulo Magalhaes</nome>
-                <cod>400</cod>
+                <nome>João Magalhães</nome>
+                <cod>003</cod>
             </responsavel>
             <tipologias>
-                <tipologia>PL</tipologia>
                 <tipologia>TP</tipologia>
             </tipologias>
             <epocas>
                 <epoca nome="Normal">
                     <exame tipologia="TP">
-                        <hora>10:00:00</hora>
-                        <dia>2018-01-14</dia>
+                        <hora>14:00:00</hora>
+                        <dia>2018-01-15</dia>
                         <tipoSala>Informática</tipoSala>
-                        <sala>0.1</sala>
-                        <responsavel>Bruno Oliveira</responsavel>
-                    </exame>
-                    <exame tipologia="PL">
-                        <hora>16:00:00</hora>
-                        <dia>2018-01-14</dia>
-                        <tipoSala>Informática</tipoSala>
-                        <sala>0.1</sala>
-                        <responsavel>Bruno Oliveira</responsavel>
+                        <sala>Auditório 2</sala>
                     </exame>
                 </epoca>
                 <epoca nome="Recurso">
                     <exame tipologia="TP">
-                        <hora>10:00:00</hora>
-                        <dia>2018-02-14</dia>
+                        <hora>14:00:00</hora>
+                        <dia>2018-01-15</dia>
                         <tipoSala>Informática</tipoSala>
-                        <sala>0.1</sala>
-                        <responsavel>Armando Neves</responsavel>
-                    </exame>
-                    <exame tipologia="PL">
-                        <hora>16:00:00</hora>
-                        <dia>2018-02-14</dia>
-                        <tipoSala>Informática</tipoSala>
-                        <sala>0.1</sala>
-                        <responsavel>Bruno Oliveira</responsavel>
+                        <sala>Auditório 2</sala>
                     </exame>
                 </epoca>
                 <epoca nome="Especial">
                     <exame tipologia="TP">
-                        <hora>10:00:00</hora>
-                        <dia>2018-09-14</dia>
+                        <hora>14:00:00</hora>
+                        <dia>2018-01-15</dia>
                         <tipoSala>Informática</tipoSala>
-                        <sala>0.1</sala>
-                        <responsavel>Jorge Neves</responsavel>
-                    </exame>
-                    <exame tipologia="PL">
-                        <hora>16:00:00</hora>
-                        <dia>2018-09-14</dia>
-                        <tipoSala>Informática</tipoSala>
-                        <sala>0.1</sala>
-                        <responsavel>Bruno Oliveira</responsavel>
+                        <sala>Auditório 2</sala>
                     </exame>
                 </epoca>
             </epocas>
         </unidadeCurricular>
-        
+        <unidadeCurricular cod="ED">
+            <nome>Estrutura de Dados</nome>
+            <areaCientifica>Informática</areaCientifica>
+            <anoCurricular>2</anoCurricular>
+            <semestre>1</semestre>
+            <responsavel>
+                <nome>Ricardo Santos</nome>
+                <cod>002</cod>
+            </responsavel>
+            <tipologias>
+                <tipologia>T</tipologia>
+                <tipologia>TP</tipologia>
+            </tipologias>
+            <epocas>
+                <epoca nome="Normal">
+                    <exame tipologia="T">
+                        <hora>10:00:00</hora>
+                        <dia>2018-01-15</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>P10</sala>
+                    </exame>
+                    <exame tipologia="TP">
+                        <hora>14:00:00</hora>
+                        <dia>2018-01-15</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>Auditório 1</sala>
+                    </exame>
+                </epoca>
+                <epoca nome="Recurso">
+                    <exame tipologia="T">
+                        <hora>10:00:00</hora>
+                        <dia>2018-06-15</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>P10</sala>
+                    </exame>
+                    <exame tipologia="TP">
+                        <hora>14:00:00</hora>
+                        <dia>2018-06-15</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>Auditório 1</sala>                    
+                    </exame>
+                </epoca>
+                <epoca nome="Especial">
+                    <exame tipologia="T">
+                        <hora>10:00:00</hora>
+                        <dia>2018-09-15</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>P10</sala>
+                    </exame>
+                    <exame tipologia="TP">
+                        <hora>14:00:00</hora>
+                        <dia>2018-09-15</dia>
+                        <tipoSala>Informática</tipoSala>
+                        <sala>Auditório 1</sala>
+                    </exame>
+                </epoca>
+            </epocas>
+        </unidadeCurricular>
     </unidadesCurriculares>
 </curso>
