@@ -12,6 +12,7 @@
                 <xs:element name="dia" type="xs:date"/>
                 <xs:element name="tipoSala" type="typ:tipoSala"/>
                 <xs:element name="sala" type="typ:sala"/>
+                <xs:element name="semana" type="xs:integer"></xs:element>
             </xs:sequence>
             <xs:attribute name="tipologia" type="typ:tipologia"/>
         </xs:complexType>
