@@ -16,7 +16,7 @@
         </epocaEspecial>
     </epocasAvaliacao>
     <cursos>    
-        <curso xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="Curso.xsd">
+        <curso>
             <nome>Licenciatura em Engenharia Informática</nome>
             <codigo>LEI</codigo>
             <coordenador>Ricardo Santos</coordenador>
@@ -131,7 +131,7 @@
         </curso>
         
         
-        <curso xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="Curso.xsd">
+        <curso>
             <nome>Licenciatura em Redes Computadores</nome>
             <codigo>SIRC</codigo>
             <coordenador>João Magalhães</coordenador>
