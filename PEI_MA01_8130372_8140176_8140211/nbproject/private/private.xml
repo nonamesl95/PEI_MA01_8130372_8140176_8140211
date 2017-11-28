@@ -11,15 +11,6 @@
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/Users/ruibabo/NetBeansProjects/PEI_MA01_8130372_8140176_8140211/src/core/XpathEvaluator.java</file>
-            <file>file:/Users/ruibabo/NetBeansProjects/PEI_MA01_8130372_8140176_8140211/src/interfaces/XmlApproverADT.java</file>
-            <file>file:/Users/ruibabo/NetBeansProjects/PEI_MA01_8130372_8140176_8140211/src/core/classes/Exame.java</file>
-            <file>file:/Users/ruibabo/NetBeansProjects/PEI_MA01_8130372_8140176_8140211/src/core/classes/Docente.java</file>
-            <file>file:/Users/ruibabo/NetBeansProjects/PEI_MA01_8130372_8140176_8140211/src/core/utilities/SimpleErrorHandler.java</file>
-            <file>file:/Users/ruibabo/NetBeansProjects/PEI_MA01_8130372_8140176_8140211/src/core/feriados/Feriado.java</file>
-            <file>file:/Users/ruibabo/NetBeansProjects/PEI_MA01_8130372_8140176_8140211/src/core/feriados/Feriados.java</file>
-            <file>file:/Users/ruibabo/NetBeansProjects/PEI_MA01_8130372_8140176_8140211/src/pei_ma01_8130372_8140176_8140211/demo.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

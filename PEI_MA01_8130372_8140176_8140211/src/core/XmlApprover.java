@@ -67,7 +67,7 @@ public class XmlApprover implements XmlApproverADT {
 
     public boolean validaXML() {
         boolean flag = false;
-        String xml = MapaXML, xsd =  MapaXSD;
+        String xml = MapaXML, xsd = MapaXSD;
         GestorXML gestor = new GestorXML(xml, xsd);
         if (gestor.validate(true)) {
             flag = true;
@@ -247,23 +247,22 @@ public class XmlApprover implements XmlApproverADT {
         return examesDocente;
     }
 
-    public void getExams() throws XPathExpressionException {
-
-        XPathFactory xPathfactory = XPathFactory.newInstance();
-        XPath xpath = xPathfactory.newXPath();
-
-        XPathExpression expr = xpath.compile("/mapa/cursos/curso");
-        NodeList nl = (NodeList) expr.evaluate(xml, XPathConstants.NODESET);
-        for (int i = 0; i < nl.getLength(); i++) {
-            Element el = (Element) nl.item(i);
-            XPathExpression expr2 = xpath.compile("//unidadesCurriculares/unidadeCurricular");
-            NodeList nl2 = (NodeList) expr2.evaluate(xml, XPathConstants.NODESET);
-            for (int j = 0; j < nl2.getLength(); j++) {
-                System.out.println(nl2.item(j).getChildNodes());
-            }
-        }
-    }
-
+//    public void getExams() throws XPathExpressionException {
+//
+//        XPathFactory xPathfactory = XPathFactory.newInstance();
+//        XPath xpath = xPathfactory.newXPath();
+//
+//        XPathExpression expr = xpath.compile("/mapa/cursos/curso");
+//        NodeList nl = (NodeList) expr.evaluate(xml, XPathConstants.NODESET);
+//        for (int i = 0; i < nl.getLength(); i++) {
+//            Element el = (Element) nl.item(i);
+//            XPathExpression expr2 = xpath.compile("//unidadesCurriculares/unidadeCurricular");
+//            NodeList nl2 = (NodeList) expr2.evaluate(xml, XPathConstants.NODESET);
+//            for (int j = 0; j < nl2.getLength(); j++) {
+//                System.out.println(nl2.item(j).getChildNodes());
+//            }
+//        }
+//    }
     public ArrayList<Errors> runXMLMAP() {
         ArrayList<Errors> erros = new ArrayList<>();
 
@@ -389,15 +388,15 @@ public class XmlApprover implements XmlApproverADT {
         if (validaXML() == true) {
             for (int i = 0; i < array.size(); i++) {
                 for (int j = 0; j < array.get(i).getExames().size(); j++) {
-                    for (int k = j; k < array.get(i).getExames().size(); k++) {
-                        if (j != k) {
-                            if ((array.get(i).getExames().get(j).getDia().equals(array.get(i).getExames().get(k).getDia())) && (array.get(i).getExames().get(j).getHora().equals(array.get(i).getExames().get(k).getHora()))) {
-                                if (!array.get(i).getExames().get(j).getUnidadeCurricular().equals(array.get(i).getExames().get(k).getUnidadeCurricular())) {
-                                    erros.add(new Errors("O professor " + array.get(i).getCodDocente() + "" + array.get(i).getExames().get(j).getUnidadeCurricular() + "tem um exame marcado no mesmo dia e hora de " + array.get(i).getExames().get(k).getUnidadeCurricular()));
-                                }
-                            }
+                    for (int k = 1; k < array.get(i).getExames().size(); k++) {
 
+                        if ((array.get(i).getExames().get(j).getUnidadeCurricular() != array.get(i).getExames().get(k).getUnidadeCurricular()) && (j != k)) {
+                            if ((array.get(i).getExames().get(j).getDia().equals(array.get(i).getExames().get(k).getDia())) && (array.get(i).getExames().get(j).getHora().equals(array.get(i).getExames().get(k).getHora()))) {
+                                erros.add(new Errors("O professor " + array.get(i).getCodDocente() + "" + array.get(i).getExames().get(j).getUnidadeCurricular() + "tem um exame marcado no mesmo dia e hora de " + array.get(i).getExames().get(k).getUnidadeCurricular()));
+                                break;
+                            }
                         }
+
                     }
 
                 }
@@ -405,6 +404,7 @@ public class XmlApprover implements XmlApproverADT {
         } else {
             erros.add(new Errors("A sintaxe do documento não é valida"));
         }
+        System.out.println("ola");
         if (!erros.isEmpty()) {
             for (int i = 0; i < erros.size(); i++) {
                 System.out.println(erros.get(i).getErro());
