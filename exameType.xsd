@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:typ="http://namespace.com/types"
-    targetNamespace="http://namespace.com/exame" xmlns="http://namespace.com/exame"
+    targetNamespace="http://namespace.com/exame"
     >
     
     <xs:import namespace="http://namespace.com/types" schemaLocation="types.xsd"/>
