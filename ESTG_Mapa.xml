@@ -16,7 +16,7 @@
         </epocaEspecial>
     </epocasAvaliacao>
     <cursos>    
-        <curso>
+        <curso xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="Curso.xsd">
             <nome>Licenciatura em Engenharia Informática</nome>
             <codigo>LEI</codigo>
             <coordenador>Ricardo Santos</coordenador>
@@ -40,6 +40,7 @@
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 1</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                         <epoca nome="Recurso">
@@ -48,6 +49,7 @@
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 1</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                         <epoca nome="Especial">
@@ -56,6 +58,7 @@
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 1</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                     </epocas>
@@ -80,12 +83,14 @@
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>P10</sala>
+                                <semana>1</semana>
                             </exame>
                             <exame tipologia="TP">
                                 <hora>14:00:00</hora>
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 1</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                         <epoca nome="Recurso">
@@ -94,12 +99,14 @@
                                 <dia>2018-06-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>P10</sala>
+                                <semana>1</semana>
                             </exame>
                             <exame tipologia="TP">
                                 <hora>14:00:00</hora>
                                 <dia>2018-06-15</dia>
                                 <tipoSala>Informática</tipoSala>
-                                <sala>Auditório 1</sala>                    
+                                <sala>Auditório 1</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                         <epoca nome="Especial">
@@ -108,12 +115,14 @@
                                 <dia>2018-09-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>P10</sala>
+                                <semana>1</semana>
                             </exame>
                             <exame tipologia="TP">
                                 <hora>14:00:00</hora>
                                 <dia>2018-09-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 1</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                     </epocas>
@@ -121,7 +130,8 @@
             </unidadesCurriculares>
         </curso>
         
-        <curso codigo="SIRC">
+        
+        <curso xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="Curso.xsd">
             <nome>Licenciatura em Redes Computadores</nome>
             <codigo>SIRC</codigo>
             <coordenador>João Magalhães</coordenador>
@@ -145,6 +155,7 @@
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 2</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                         <epoca nome="Recurso">
@@ -153,6 +164,7 @@
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 2</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                         <epoca nome="Especial">
@@ -161,6 +173,7 @@
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 2</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                     </epocas>
@@ -185,12 +198,14 @@
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>P10</sala>
+                                <semana>1</semana>
                             </exame>
                             <exame tipologia="TP">
                                 <hora>14:00:00</hora>
                                 <dia>2018-01-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 1</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                         <epoca nome="Recurso">
@@ -199,12 +214,14 @@
                                 <dia>2018-06-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>P10</sala>
+                                <semana>1</semana>
                             </exame>
                             <exame tipologia="TP">
                                 <hora>14:00:00</hora>
                                 <dia>2018-06-15</dia>
                                 <tipoSala>Informática</tipoSala>
-                                <sala>Auditório 1</sala>                    
+                                <sala>Auditório 1</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                         <epoca nome="Especial">
@@ -213,12 +230,14 @@
                                 <dia>2018-09-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>P10</sala>
+                                <semana>1</semana>
                             </exame>
                             <exame tipologia="TP">
                                 <hora>14:00:00</hora>
                                 <dia>2018-09-15</dia>
                                 <tipoSala>Informática</tipoSala>
                                 <sala>Auditório 1</sala>
+                                <semana>1</semana>
                             </exame>
                         </epoca>
                     </epocas>
