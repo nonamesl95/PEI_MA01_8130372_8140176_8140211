@@ -14,7 +14,7 @@ header{
 table{
     border-collapse: collapse;
     width: 100%;
-    border:2px;
+    border:2px solid black;
 }
 .epocasDesc{
     font-family:Aladin;
