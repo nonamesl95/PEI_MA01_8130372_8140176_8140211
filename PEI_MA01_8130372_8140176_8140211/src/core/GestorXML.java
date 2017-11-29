@@ -181,7 +181,7 @@ public class GestorXML {
          TransformerFactory factory = TransformerFactory.newInstance();
          Transformer transformer = factory.newTransformer(xslt);
          
-         transformer.transform(text, new StreamResult(new File("./files/test.html")));
+         transformer.transform(text, new StreamResult(new File("./files/Mapa_ESTG.html")));
     }
     
     /**TODO
