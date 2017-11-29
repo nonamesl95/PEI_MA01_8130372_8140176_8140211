@@ -26,6 +26,7 @@ import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
@@ -247,22 +248,6 @@ public class XmlApprover implements XmlApproverADT {
         return examesDocente;
     }
 
-//    public void getExams() throws XPathExpressionException {
-//
-//        XPathFactory xPathfactory = XPathFactory.newInstance();
-//        XPath xpath = xPathfactory.newXPath();
-//
-//        XPathExpression expr = xpath.compile("/mapa/cursos/curso");
-//        NodeList nl = (NodeList) expr.evaluate(xml, XPathConstants.NODESET);
-//        for (int i = 0; i < nl.getLength(); i++) {
-//            Element el = (Element) nl.item(i);
-//            XPathExpression expr2 = xpath.compile("//unidadesCurriculares/unidadeCurricular");
-//            NodeList nl2 = (NodeList) expr2.evaluate(xml, XPathConstants.NODESET);
-//            for (int j = 0; j < nl2.getLength(); j++) {
-//                System.out.println(nl2.item(j).getChildNodes());
-//            }
-//        }
-//    }
     public ArrayList<Errors> runXMLMAP() {
         ArrayList<Errors> erros = new ArrayList<>();
 
@@ -404,7 +389,7 @@ public class XmlApprover implements XmlApproverADT {
         } else {
             erros.add(new Errors("A sintaxe do documento não é valida"));
         }
-        System.out.println("ola");
+     
         if (!erros.isEmpty()) {
             for (int i = 0; i < erros.size(); i++) {
                 System.out.println(erros.get(i).getErro());
@@ -437,5 +422,10 @@ public class XmlApprover implements XmlApproverADT {
         } else {
             return false;
         }
+    }
+    
+    public void transformXSL() throws TransformerException{
+        GestorXML g = new GestorXML(MapaXML, MapaXSD);
+        g.xsltTransform();
     }
 }

@@ -2,7 +2,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:ep="http://namespace.com/epocas"
     xmlns:typ="http://namespace.com/types"
-    targetNamespace="htts://namespace.com/unidadecurricular" xmlns="htts://namespace.com/unidadecurricular"
+    targetNamespace="htts://namespace.com/unidadecurricular"
     >
     
     <xs:import schemaLocation="epocasType.xsd" namespace="http://namespace.com/epocas"/>
@@ -18,7 +18,7 @@
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element type="xs:string" name="nome"/>
-                        <xs:element type="xs:string" name="cod"/>
+                        <xs:element type="xs:integer" name="cod"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>

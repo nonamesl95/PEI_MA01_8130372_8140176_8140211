@@ -8,6 +8,9 @@ package pei_ma01_8130372_8140176_8140211;
 import core.XmlApprover;
 
 import java.text.ParseException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.xml.transform.TransformerException;
 
 import javax.xml.xpath.XPathExpressionException;
 
@@ -23,9 +26,9 @@ public class demo {
     public static void main(String[] args) throws XPathExpressionException, ParseException {
         XmlApprover xa = new XmlApprover("./files/feriados.xml", "./files/ESTG_Mapa.xml", "./files/ESTG_Mapa.xsd");
         xa.read();
-        if (xa.approveExamHolidays() == true) {
-            System.out.println("Mapa Invalido");
-        }
+//        if (xa.approveExamHolidays() == true) {
+//            System.out.println("Mapa Invalido");
+//        }
 
         if (xa.approveNumberExamsDayUC() == true) {
             System.out.println("Mapa Invalido");
@@ -33,8 +36,14 @@ public class demo {
 
         }
 
-        if (xa.approveTeacheronExam() == true) {
-            System.out.println("Mapa Invalido");
+//        if (xa.approveTeacheronExam() == true) {
+//            System.out.println("Mapa Invalido");
+//        }
+//        
+        try {
+            xa.transformXSL();
+        } catch (TransformerException ex) {
+            Logger.getLogger(demo.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 

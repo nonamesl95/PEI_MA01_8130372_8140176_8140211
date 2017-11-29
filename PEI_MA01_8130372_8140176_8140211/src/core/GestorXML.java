@@ -10,6 +10,11 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Source;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
@@ -170,6 +175,15 @@ public class GestorXML {
         }
     }
 
+    public void xsltTransform() throws TransformerConfigurationException, TransformerException{
+        Source xslt= new StreamSource(new File("./files/ESTG_GERALNOVO.xsl"));
+         Source text= new StreamSource(new File(xmlFile));
+         TransformerFactory factory = TransformerFactory.newInstance();
+         Transformer transformer = factory.newTransformer(xslt);
+         
+         transformer.transform(text, new StreamResult(new File("./files/test.html")));
+    }
+    
     /**TODO
      * 2. Crie um método que tendo por base a interface: XMLSerializable 
      * (disponível na plataforma moodle), 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified"
     xmlns:uc="htts://namespace.com/unidadecurricular"
-    targetNamespace="http://namespace.com/curso" xmlns="http://namespace.com/curso"
+    targetNamespace="http://namespace.com/curso"
     >
 
     <xs:import schemaLocation="unidadeCurricularType.xsd" namespace="htts://namespace.com/unidadecurricular"/>
