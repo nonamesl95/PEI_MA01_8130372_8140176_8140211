@@ -26,7 +26,6 @@ declare function local:calcWeekExams($semana, $semestre, $curso, $anoCurricular)
 let $x:=local:calcWeek($semana)
 
     return <NumeroExames>{count (doc('ESTG_MAPA.xml')/mapa/cursos/curso[codigo=$curso]/unidadesCurriculares/unidadeCurricular[semestre = $semestre and anoCurricular = $anoCurricular]/epocas/epoca[@nome=$x]/exame)}</NumeroExames>
-
 };
 
 
