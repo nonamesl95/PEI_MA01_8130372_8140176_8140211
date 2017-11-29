@@ -4,9 +4,7 @@
   >
     
     <xsl:template match="/"> 
-        <xdmp:import-module 
-            namespace="http://marklogic.com/appservices/search"
-            href="ex.xqy"/>
+       
         
         <html>
             <head>
@@ -31,7 +29,7 @@
                             <xsl:for-each select="epocas/epoca[@nome='Normal']/exame">
                            <tr>
                                <td>
-                       
+                                   <xsl:value-of select="dia"/>
                              </td>
                                <td><xsl:value-of select="../../../anoCurricular"/></td>
                                <td><xsl:value-of select="../../../nome"/></td>
