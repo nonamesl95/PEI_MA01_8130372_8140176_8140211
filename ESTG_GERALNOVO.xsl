@@ -23,8 +23,6 @@
                     <xsl:for-each select="mapa/cursos/curso">
                         <xsl:call-template name="semestre2"/>
                 </xsl:for-each>
-                
-                
                 <hr></hr>
                 
                 <div class="semestre"><h3>Epoca Especial</h3></div>
