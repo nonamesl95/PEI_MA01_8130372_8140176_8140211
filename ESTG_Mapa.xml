@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="ESTG_GERALNOVO.xsl"?>
 <mapa xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="ESTG_Mapa.xsd">
     <epocasAvaliacao>
+        <epocas semestre="1">
         <epocaNormal>
             <dataInicio>2018-01-15</dataInicio>
             <dataFim>2018-01-26</dataFim>
@@ -14,6 +15,21 @@
             <dataInicio>2018-09-15</dataInicio>
             <dataFim>2018-09-26</dataFim>
         </epocaEspecial>
+        </epocas>
+        <epocas semestre="2">
+            <epocaNormal>
+                <dataInicio>2018-09-15</dataInicio>
+                <dataFim>2018-09-26</dataFim>
+            </epocaNormal>
+            <epocaRecurso>
+                <dataInicio>2018-06-15</dataInicio>
+                <dataFim>2018-06-26</dataFim>
+            </epocaRecurso>
+            <epocaEspecial>
+                <dataInicio>2018-09-15</dataInicio>
+                <dataFim>2018-09-26</dataFim>
+            </epocaEspecial>
+        </epocas>
     </epocasAvaliacao>
     <cursos>    
         <curso>
@@ -25,7 +41,7 @@
                     <nome>Processamento estruturado de informação</nome>
                     <areaCientifica>Informática</areaCientifica>
                     <anoCurricular>1</anoCurricular>
-                    <semestre>1</semestre>
+                    <semestre>2</semestre>
                     <responsavel>
                         <nome>Bruno Oliveira</nome>
                         <cod>001</cod>
