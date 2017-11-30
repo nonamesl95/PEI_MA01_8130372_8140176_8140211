@@ -26,6 +26,10 @@ table{
 h3{
      color: rgb(220, 88, 2);
 }
+
+.semestre{
+    font-size:20px;
+}
 .tableEpoca{
       width: 50%;
   margin: 0 auto;
