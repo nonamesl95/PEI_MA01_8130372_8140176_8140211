@@ -5,31 +5,38 @@
     
     <xs:complexType name="epocasAvaliacaoType">
         <xs:sequence>
-            <xs:element name="epocaNormal">
+            <xs:element name="epocas" maxOccurs="2" minOccurs="1">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="dataInicio" type="xs:date"/>
-                        <xs:element name="dataFim" type="xs:date"/>
+                        <xs:element name="epocaNormal">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element type="xs:date" name="dataInicio"/>
+                                    <xs:element type="xs:date" name="dataFim"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="epocaRecurso">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element type="xs:date" name="dataInicio"/>
+                                    <xs:element type="xs:date" name="dataFim"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="epocaEspecial">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element type="xs:date" name="dataInicio"/>
+                                    <xs:element type="xs:date" name="dataFim"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
                     </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="epocaRecurso">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="dataInicio" type="xs:date"/>
-                        <xs:element name="dataFim" type="xs:date"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="epocaEspecial">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element name="dataInicio" type="xs:date"/>
-                        <xs:element name="dataFim" type="xs:date"/>
-                    </xs:sequence>
+                    <xs:attribute type="xs:integer" name="semestre" use="required"/>
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
     </xs:complexType>
-    
+     
 </xs:schema>
